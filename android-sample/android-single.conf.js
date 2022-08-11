@@ -14,7 +14,7 @@ exports.config = {
       platformName: "Android",
       deviceName: "Galaxy S9",
       platformVersion: "10",
-      app: "YOUR_APP_URL", //Set your APP URL
+      app: "lt://APP10160501221660199055082248", //Set your APP URL
     },
   ],
 
