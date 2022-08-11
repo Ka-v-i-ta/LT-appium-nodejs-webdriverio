@@ -21,6 +21,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        cache-dependency-path: /home/runner/work/LT-appium-nodejs-webdriverio/LT-appium-nodejs-webdriverio
     - run: npm install
     - run: npm run singleAndroid
     - uses: actions/upload-artifact@v1
